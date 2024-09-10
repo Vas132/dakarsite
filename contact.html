@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Επικοινωνία | Dakar Delicatessen</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #556B2F;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-info,
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact-info h2,
+        .contact-form h2 {
+            font-size: 36px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p,
+        .contact-form p {
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            font-size: 16px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #4d4c4c;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Dakar Delicatessen</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/VASILIS/Desktop/Gymbunn.html">Αρχική</a></li>
+                <li><a href="file:///C:/Users/VASILIS/Desktop/ers.html">Που θα μας βρείτε</a></li>
+                <li><a href="file:///C:/Users/VASILIS/Desktop/neo.html">Προϊόντα</a></li>
+                <li><a href="file:///C:/Users/VASILIS/Desktop/contact.html">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="contact-info">
+            <h2>Επικοινωνήστε</h2>
+            <p>Για οποιαδήσποτε απορία σας επικοινωνήστε με τους παρακάτω τρόπους.</p>
+            <p><strong>Email:</strong> dakarfoods@gmail.com</p>
+            <p><strong>Τηλέφωνο:</strong> +30 2396309071</p>
+            <p><strong>Διεύθυνση:</strong> Νεο Ρύσιο Θεσσαλονίκη, Κωνσταντινουπόλεως 2α</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Στείλτε μας ένα μήνυμα</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Όνομα:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Κείμενο:</label>
+                <textarea id="message" name="παρακαλώ γεμι" rows="6" required></textarea>
+
+                <button type="submit">Στείλτε μήνυμα</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
